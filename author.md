@@ -2,13 +2,11 @@
 
 **Town Moderator, Natick, Massachusetts**
 
-<img src="./jeff_alderson_headshot.jpeg" alt="Jeff Alderson headshot" width="180" align="right" style="margin: 0 0 1em 1.5em; border-radius: 4px;" />
-
-<div style="clear: both;"></div>
-
 ---
 
 ## Official Role
+
+<img src="./jeff_alderson_headshot.jpeg" alt="Jeff Alderson headshot" width="180" align="right" style="margin: 0 0 1em 1.5em; border-radius: 4px;" />
 
 Jeff Alderson is the elected Town Moderator for the Town of Natick, Massachusetts. He presides over Natick's Town Meeting — the local legislative body — and makes appointments to the Finance Committee, Charter and By-Law Review Committee, Hybrid Town Meeting Committee, and other committees as required.
 
