@@ -18,6 +18,7 @@ DIR = os.path.dirname(__file__)
 OUTPUT = os.path.join(DIR, "Town_Meeting_Video_Slides.pptx")
 TEMPLATE = os.path.join(DIR, "Town Meeting Member Orientation.pptx")
 LEAF_BLOWER_IMG = os.path.join(DIR, "gas_leaf_blower.jpg")
+TURF_IMG = os.path.join(DIR, "artificial_turf_field.jpg")
 
 # Colors matching the orientation style
 TITLE_COLOR = RGBColor(0x1B, 0x3A, 0x5C)   # dark navy
@@ -234,11 +235,12 @@ add_bullets(slide, 0.8, 3.0, 8.0, 2.0, [
 # ============================================================
 slide = new_slide(prs)
 add_title(slide, "Question 2: Artificial Turf")
-add_bullets(slide, 0.341, 1.1, 8.5, 3.5, [
+if os.path.exists(TURF_IMG):
+    slide.shapes.add_picture(TURF_IMG, Inches(5.5), Inches(1.2), Inches(4.2), Inches(3.15))
+add_bullets(slide, 0.341, 1.1, 5.0, 3.5, [
     "In 2025, residents asked for a three-year moratorium \u2014 a pause \u2014 on new artificial turf fields.",
     "Artificial turf is plastic grass used on sports fields like soccer and football.",
     "Supporters wanted time to study health and environmental risks before building more.",
-    "[PLACEHOLDER: Insert photo of artificial turf field here]",
 ])
 
 # ============================================================

@@ -51,8 +51,9 @@
 
 ## Slide 8 — Question 2: Artificial Turf
 **Time:** 1:38–1:53 (15s)
-**Visual:** Photo of an artificial turf field. Text: "Article 33: Should Natick pause new artificial turf fields?"
+**Visual:** Photo of Memorial Field artificial turf at Natick High School. Text: "Article 33: Should Natick pause new artificial turf fields?"
 **Audio (VO):** "The next year, in 2025, another big question came up. Some residents wanted a three-year pause — called a moratorium — on building any new artificial turf fields in town, like the plastic grass you see on some sports fields."
+**Image:** [`artificial_turf_field.jpg`](./artificial_turf_field.jpg) — via Natick Report
 
 
 ## Slide 9 — Artificial Turf: The Debate
@@ -85,7 +86,7 @@
 |-------|---------------|
 | 5 | No video footage of leaf blower debate — using [`gas_leaf_blower.jpg`](./gas_leaf_blower.jpg) (Daniel Lobo, CC BY 2.0) |
 | 6 | Leaf blower debate not captured on video — quotes are from Natick Report article only |
-| 9 | No video clip of youth sports speakers — use stock field photo |
+| 8 | No official Town of Natick photo — using Natick Report Memorial Field photo |
 | All | No b-roll of Town Meeting in session (if available from Telvue, insert) |
 | All | Audio: no interview clips of Jeff Alderson explaining his role — write VO only |
 
