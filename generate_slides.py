@@ -17,6 +17,7 @@ import os, io
 DIR = os.path.dirname(__file__)
 OUTPUT = os.path.join(DIR, "Town_Meeting_Video_Slides.pptx")
 TEMPLATE = os.path.join(DIR, "Town Meeting Member Orientation.pptx")
+LEAF_BLOWER_IMG = os.path.join(DIR, "gas_leaf_blower.jpg")
 
 # Colors matching the orientation style
 TITLE_COLOR = RGBColor(0x1B, 0x3A, 0x5C)   # dark navy
@@ -183,11 +184,13 @@ add_bullets(slide, 5.4, 1.9, 3.8, 2.0, [
 # ============================================================
 slide = new_slide(prs)
 add_title(slide, "Question 1: Gas Leaf Blowers")
-add_bullets(slide, 0.341, 1.1, 8.5, 3.5, [
+# Place the leaf blower photo on the right side
+if os.path.exists(LEAF_BLOWER_IMG):
+    slide.shapes.add_picture(LEAF_BLOWER_IMG, Inches(5.5), Inches(1.2), Inches(4.2), Inches(3.15))
+add_bullets(slide, 0.341, 1.1, 5.0, 3.5, [
     "In 2024, a group called EcoNatick asked Town Meeting to phase out gas-powered leaf blowers.",
     "Their reasons: leaf blowers are loud, pollute the air, and can cause health problems like asthma.",
     "They wanted people to switch to quieter, electric blowers \u2014 or just use a rake!",
-    "[PLACEHOLDER: Insert photo of gas leaf blower here]",
 ])
 
 # ============================================================

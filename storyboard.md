@@ -33,9 +33,9 @@
 
 ## Slide 5 — Question 1: Gas Leaf Blowers
 **Time:** 0:55–1:10 (15s)
-**Visual:** Photo of a gas leaf blower. Text: "Article 32: Should Natick phase out gas leaf blowers?"
+**Visual:** Photo of a gas leaf blower in action (credit: Daniel Lobo, CC BY 2.0). Text: "Article 32: Should Natick phase out gas leaf blowers?"
 **Audio (VO):** "In 2024, a group called EcoNatick asked Town Meeting to phase out gas-powered leaf blowers. They said the blowers are bad for the environment and people's health — they're loud, they pollute the air, and they make a lot of noise."
-
+**Image:** [`gas_leaf_blower.jpg`](./gas_leaf_blower.jpg) — MUST credit "Daniel Lobo via Wikimedia Commons, CC BY 2.0" in end credits
 
 ## Slide 6 — Leaf Blowers: The Debate
 **Time:** 1:10–1:28 (18s)
@@ -83,7 +83,7 @@
 
 | Slide | What's missing |
 |-------|---------------|
-| 5 | No video footage of leaf blower debate — use stock photo of gas leaf blower |
+| 5 | No video footage of leaf blower debate — using [`gas_leaf_blower.jpg`](./gas_leaf_blower.jpg) (Daniel Lobo, CC BY 2.0) |
 | 6 | Leaf blower debate not captured on video — quotes are from Natick Report article only |
 | 9 | No video clip of youth sports speakers — use stock field photo |
 | All | No b-roll of Town Meeting in session (if available from Telvue, insert) |
