@@ -191,9 +191,7 @@ add_bullets(slide, 0.341, 1.1, 5.0, 3.5, [
     "The Moderator explains each question and calls the vote at the end.",
     "He does not take sides \u2014 he stays neutral and fair.",
 ])
-add_text_box(slide, 0.341, 4.6, 8.5, 0.4,
-             "Moderator Jeff Alderson \u2014 Natick Spring 2026 Town Meeting",
-             font_size=14, color=ACCENT, alignment=PP_ALIGN.CENTER)
+
 
 # ============================================================
 # SLIDE 4 — Two Big Questions
