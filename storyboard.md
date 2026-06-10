@@ -1,8 +1,9 @@
 # Video Storyboard: "How Does Town Meeting Work? Two Big Decisions in Natick"
 
 **Target audience:** 3rd grade students in Massachusetts
-**Duration:** 2 minutes 30 seconds – 3 minutes
+**Duration:** 2 minutes 30 seconds – 2 minutes 45 seconds
 **Format:** Talking head + slides (screenshot-style PowerPoint)
+**Slides:** 11 (no credits slide)
 
 ---
 
@@ -35,7 +36,7 @@
 **Time:** 0:55–1:10 (15s)
 **Visual:** Photo of a gas leaf blower in action (credit: Daniel Lobo, CC BY 2.0). Text: "Article 32: Should Natick phase out gas leaf blowers?"
 **Audio (VO):** "In 2024, a group called EcoNatick asked Town Meeting to phase out gas-powered leaf blowers. They said the blowers are bad for the environment and people's health — they're loud, they pollute the air, and they make a lot of noise."
-**Image:** [`gas_leaf_blower.jpg`](./gas_leaf_blower.jpg) — MUST credit "Daniel Lobo via Wikimedia Commons, CC BY 2.0" in end credits
+**Image:** [`gas_leaf_blower.jpg`](./gas_leaf_blower.jpg) — CC BY 2.0 (Daniel Lobo via Wikimedia Commons — add attribution in video description)
 
 ## Slide 6 — Leaf Blowers: The Debate
 **Time:** 1:10–1:28 (18s)
@@ -72,12 +73,6 @@
 **Time:** 2:28–2:45 (17s)
 **Visual:** Three icons with labels: "1. Anyone can speak up", "2. Debates are healthy", "3. Votes are fair"
 **Audio (VO):** "So what can we learn from all this? First, in Town Meeting, anyone can bring an idea or speak up about something they care about. Second, it's okay to disagree — debating helps us make better decisions. And third, everyone's vote counts equally. That's democracy in action."
-
-
-## Slide 12 — Credits
-**Time:** 2:45–3:00 (15s)
-**Visual:** Credits text: "Sources: Natick Report, EcoNatick, Town of Natick, Telvue recording. Produced for Natick Public Schools." Music fades out.
-**Audio:** Outro music
 
 
 ## Placeholder Notes

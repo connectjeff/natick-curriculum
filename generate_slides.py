@@ -301,21 +301,6 @@ for title, body in lessons:
                  font_size=15, color=DARK)
     y += 1.2
 
-# ============================================================
-# SLIDE 12 — Credits
-# ============================================================
-slide = new_slide(prs)
-for shape in list(slide.shapes):
-    sp = shape._element
-    sp.getparent().remove(sp)
-add_logo(slide)
-set_bg(slide, TITLE_COLOR)
-add_text_box(slide, 0.8, 1.2, 8.4, 0.7, "Credits",
-             font_size=28, bold=True, color=WHITE, alignment=PP_ALIGN.CENTER)
-add_text_box(slide, 0.8, 2.3, 8.4, 2.0,
-             "Sources:\nNatick Report \u00b7 EcoNatick \u00b7 Town of Natick\nTelvue Recording of Fall 2025 Town Meeting\n\nProduced for Natick Public Schools\n\u00a9 2025",
-             font_size=16, color=RGBColor(0xBB, 0xD5, 0xED), alignment=PP_ALIGN.CENTER)
-
 # Save
 prs.save(OUTPUT)
 print(f"Slides saved to: {OUTPUT}")
