@@ -1,6 +1,8 @@
 # Natick Town Meeting Video — Curriculum Project
 
-A video production package for a 2–3 minute learning video that teaches 3rd-grade students in Massachusetts how Town Meeting works through two real debates in Natick.
+A video production package for a 2–3 minute learning video that teaches 3rd-grade students how Town Meeting works in Massachusetts.
+
+In Massachusetts, towns are run by a Select Board and either a Town Meeting or a Town Council. At Town Meeting, residents vote directly on local laws, projects, and how money is spent. The video brings this concept to life through two real debates from Natick's Fall 2024 and Fall 2025 Town Meetings, showing students how anyone can speak up, how arguments are debated fairly, and how every vote counts.
 
 ## Video Summary
 
@@ -39,7 +41,7 @@ GitHub natively renders .mp4 files referenced in README with a video player.
 | [`generate_slides.py`](./generate_slides.py) | Python script that regenerates the PowerPoint slides using python-pptx, pulling the town seal image from the orientation template |
 | [`regenerate.sh`](./regenerate.sh) | Shell script that checks source files and regenerates all build artifacts |
 | [`SKILL.md`](./SKILL.md) | Reusable skill definition documenting the full workflow for generating video production packages from source Markdown files |
-| [`Copy of Town Government in Massachusetts Reading.txt`](./Copy%20of%20Town%20Government%20in%20Massachusetts%20Reading.txt) | 3rd-grade curriculum reading passage about town government in Massachusetts, used as context for the video's educational level |
+
 
 ## Regeneration
 
