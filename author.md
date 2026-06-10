@@ -2,6 +2,8 @@
 
 **Town Moderator, Natick, Massachusetts**
 
+![Jeff Alderson headshot](./jeff_alderson_headshot.jpeg)
+
 ---
 
 ## Official Role
