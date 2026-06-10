@@ -19,6 +19,7 @@ OUTPUT = os.path.join(DIR, "Town_Meeting_Video_Slides.pptx")
 TEMPLATE = os.path.join(DIR, "Town Meeting Member Orientation.pptx")
 LEAF_BLOWER_IMG = os.path.join(DIR, "gas_leaf_blower.jpg")
 TURF_IMG = os.path.join(DIR, "artificial_turf_field.jpg")
+TM_IMG = os.path.join(DIR, "town_meeting_2026.jpg")
 
 # Colors matching the orientation style
 TITLE_COLOR = RGBColor(0x1B, 0x3A, 0x5C)   # dark navy
@@ -181,7 +182,9 @@ for i, label in enumerate(labels):
 # ============================================================
 slide = new_slide(prs)
 add_title(slide, "The Town Moderator")
-add_bullets(slide, 0.341, 1.1, 8.5, 3.5, [
+if os.path.exists(TM_IMG):
+    slide.shapes.add_picture(TM_IMG, Inches(5.5), Inches(1.2), Inches(4.2), Inches(3.15))
+add_bullets(slide, 0.341, 1.1, 5.0, 3.5, [
     "The Town Moderator keeps Town Meeting fair and organized.",
     "In Natick, the Moderator is Jeff Alderson.",
     "His job is like a referee: he makes sure everyone follows the rules and gets a chance to speak.",
@@ -189,7 +192,7 @@ add_bullets(slide, 0.341, 1.1, 8.5, 3.5, [
     "He does not take sides \u2014 he stays neutral and fair.",
 ])
 add_text_box(slide, 0.341, 4.6, 8.5, 0.4,
-             "Moderator Jeff Alderson \u2014 Natick Town Meeting",
+             "Moderator Jeff Alderson \u2014 Natick Spring 2026 Town Meeting",
              font_size=14, color=ACCENT, alignment=PP_ALIGN.CENTER)
 
 # ============================================================

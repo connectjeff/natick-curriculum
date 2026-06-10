@@ -21,7 +21,7 @@ Jeff introduces himself and the topic. Slide shows title on screen.
 Slide is visible as Jeff explains the concept. He can reference the diagram briefly or just speak naturally while the slide is up.
 
 ### The Town Moderator (Slide 3)
-Slide visible as Jeff talks about the Moderator role. He can gesture to himself ("that's me!") to keep it personal.
+Photo of Spring 2026 Town Meeting in session visible as Jeff talks about the Moderator role. He can gesture to himself ("that's me!") to keep it personal.
 
 ### Two Big Questions (Slide 4)
 Slide visible as Jeff transitions to the two debate topics.
