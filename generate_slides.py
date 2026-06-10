@@ -123,10 +123,10 @@ for shape in list(slide.shapes):
     sp.getparent().remove(sp)
 # Re-add logo
 add_logo(slide)
-set_bg(slide, TITLE_COLOR)
+set_bg(slide, WHITE)
 add_text_box(slide, 0.8, 1.2, 8.4, 1.2,
              "How Does Town Meeting Work?\nTwo Big Decisions in Natick",
-             font_size=32, bold=True, color=WHITE, alignment=PP_ALIGN.CENTER)
+             font_size=32, bold=True, color=TITLE_COLOR, alignment=PP_ALIGN.CENTER)
 
 
 # ============================================================
