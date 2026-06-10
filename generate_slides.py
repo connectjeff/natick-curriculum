@@ -134,15 +134,47 @@ add_text_box(slide, 0.8, 1.2, 8.4, 1.2,
 # ============================================================
 slide = new_slide(prs)
 add_title(slide, "What Is Town Meeting?")
-add_bullets(slide, 0.341, 1.1, 8.5, 3.5, [
+add_bullets(slide, 0.341, 1.1, 8.5, 2.2, [
     "In Massachusetts, many towns let residents vote on big decisions.",
-    "Any resident can come to Town Meeting and vote — it is like a giant classroom vote for the whole town!",
+    "Any resident can come to Town Meeting and vote \u2014 it is like a giant classroom vote for the whole town!",
     "Towns vote on how to spend money, what rules to make, and important local projects.",
     "Town Meeting happens at least once a year, usually in the spring or fall.",
 ])
-add_text_box(slide, 0.341, 4.5, 5.0, 0.4,
-             "Residents \u2192 Town Meeting \u2192 Vote \u2192 Decision",
-             font_size=16, bold=True, color=ACCENT, alignment=PP_ALIGN.CENTER)
+# Flow diagram using shapes
+from pptx.enum.shapes import MSO_SHAPE, MSO_CONNECTOR_TYPE
+box_w, box_h = 1.6, 0.7
+gap = 0.55
+total = 4 * box_w + 3 * gap
+left_start = (10 - total) / 2
+labels = ["Residents", "Town Meeting", "Vote", "Decision"]
+y = 3.8
+from lxml import etree
+for i, label in enumerate(labels):
+    x = left_start + i * (box_w + gap)
+    shape = slide.shapes.add_shape(MSO_SHAPE.ROUNDED_RECTANGLE, Inches(x), Inches(y), Inches(box_w), Inches(box_h))
+    shape.fill.solid()
+    shape.fill.fore_color.rgb = WHITE
+    shape.line.color.rgb = TITLE_COLOR
+    shape.line.width = Pt(1.5)
+    tf = shape.text_frame
+    tf.word_wrap = True
+    p = tf.paragraphs[0]
+    p.text = label
+    p.font.size = Pt(14)
+    p.font.bold = True
+    p.font.color.rgb = TITLE_COLOR
+    p.alignment = PP_ALIGN.CENTER
+    # Arrow between boxes
+    if i < len(labels) - 1:
+        ax = x + box_w + 0.05
+        ay = y + box_h / 2
+        conn = slide.shapes.add_connector(MSO_CONNECTOR_TYPE.STRAIGHT, Inches(ax), Inches(ay), Inches(ax + gap - 0.1), Inches(ay))
+        conn.line.color.rgb = ACCENT
+        conn.line.width = Pt(2)
+        # Add arrowhead via XML
+        ln = conn.line._ln
+        tailEnd = ln.makeelement(qn('a:tailEnd'), {'type': 'triangle', 'w': 'med', 'len': 'med'})
+        ln.append(tailEnd)
 
 # ============================================================
 # SLIDE 3 — The Town Moderator
