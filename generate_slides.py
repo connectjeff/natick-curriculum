@@ -72,7 +72,7 @@ def add_text_box(slide, left, top, width, height, text, font_size=18,
     p.alignment = alignment
     return txBox
 
-def add_bullets(slide, left, top, width, height, items, font_size=16, color=DARK, line_spacing=1.2):
+def add_bullets(slide, left, top, width, height, items, font_size=16, color=DARK, line_spacing=2.0):
     txBox = slide.shapes.add_textbox(Inches(left), Inches(top), Inches(width), Inches(height))
     tf = txBox.text_frame
     tf.word_wrap = True
