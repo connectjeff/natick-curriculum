@@ -127,9 +127,7 @@ set_bg(slide, TITLE_COLOR)
 add_text_box(slide, 0.8, 1.2, 8.4, 1.2,
              "How Does Town Meeting Work?\nTwo Big Decisions in Natick",
              font_size=32, bold=True, color=WHITE, alignment=PP_ALIGN.CENTER)
-add_text_box(slide, 0.8, 3.2, 8.4, 0.6,
-             "A Natick Public Schools Learning Video",
-             font_size=18, color=RGBColor(0xBB, 0xD5, 0xED), alignment=PP_ALIGN.CENTER)
+
 
 # ============================================================
 # SLIDE 2 — What Is Town Meeting?
