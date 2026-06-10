@@ -2,7 +2,7 @@
 
 **Town Moderator, Natick, Massachusetts**
 
-![Jeff Alderson headshot](./jeff_alderson_headshot.jpeg)
+<img src="./jeff_alderson_headshot.jpeg" alt="Jeff Alderson headshot" width="180" align="right" style="margin: 0 0 1em 1.5em; border-radius: 4px;" />
 
 ---
 
