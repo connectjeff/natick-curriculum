@@ -78,7 +78,7 @@ def add_bullets(slide, left, top, width, height, items, font_size=16, color=DARK
     tf.word_wrap = True
     for i, item in enumerate(items):
         p = tf.paragraphs[0] if i == 0 else tf.add_paragraph()
-        p.text = item
+        p.text = "\u2022 " + item
         p.font.size = Pt(font_size)
         p.font.color.rgb = color
         p.font.name = "Calibri"
@@ -136,10 +136,10 @@ add_text_box(slide, 0.8, 1.2, 8.4, 1.2,
 slide = new_slide(prs)
 add_title(slide, "What Is Town Meeting?")
 add_bullets(slide, 0.341, 1.1, 8.5, 2.2, [
-    "In Massachusetts, many towns let elected Town Meeting members vote on big decisions.",
-    "Elected Town Meeting members do the voting \u2014 but any resident can come and speak their mind.",
-    "Towns vote on how to spend money, what rules to make, and important local projects.",
-    "Town Meeting happens at least once a year, usually in the spring or fall.",
+    "In Mass., elected Town Meeting members vote on big decisions.",
+    "Elected members vote, but any resident can come and speak their mind.",
+    "Towns vote on spending, rules, and important local projects.",
+    "Town Meeting happens at least once a year, usually spring or fall.",
 ])
 # Flow diagram using shapes
 from pptx.enum.shapes import MSO_SHAPE, MSO_CONNECTOR_TYPE
@@ -187,8 +187,8 @@ if os.path.exists(TM_IMG):
 add_bullets(slide, 0.341, 1.1, 5.0, 3.5, [
     "The Town Moderator keeps Town Meeting fair and organized.",
     "In Natick, the Moderator is Jeff Alderson.",
-    "His job is like a referee: he makes sure everyone follows the rules and gets a chance to speak.",
-    "The Moderator explains each question and calls the vote at the end.",
+    "Like a referee: he keeps order and gives everyone a fair chance to speak.",
+    "The Moderator explains each question and calls the vote.",
     "He does not take sides \u2014 he stays neutral and fair.",
 ])
 
@@ -220,9 +220,9 @@ add_title(slide, "Question 1: Gas Leaf Blowers")
 if os.path.exists(LEAF_BLOWER_IMG):
     slide.shapes.add_picture(LEAF_BLOWER_IMG, Inches(5.5), Inches(1.2), Inches(4.2), Inches(3.15))
 add_bullets(slide, 0.341, 1.1, 5.0, 3.5, [
-    "In 2024, a group called EcoNatick asked Town Meeting to phase out gas-powered leaf blowers.",
-    "Their reasons: leaf blowers are loud, pollute the air, and can cause health problems like asthma.",
-    "They wanted people to switch to quieter, electric blowers \u2014 or just use a rake!",
+    "In 2024, EcoNatick asked Town Meeting to phase out gas leaf blowers.",
+    "They cited noise, air pollution, and health risks like asthma.",
+    "They urged a switch to quieter electric blowers \u2014 or a rake!",
 ])
 
 # ============================================================
@@ -256,9 +256,9 @@ add_text_box(slide, 1.5, 2.3, 7.0, 0.4,
              "Yes (refer)        No        Abstain",
              font_size=16, color=DARK, alignment=PP_ALIGN.CENTER)
 add_bullets(slide, 0.8, 3.0, 8.0, 2.0, [
-    "Town Meeting voted to refer \u2014 send \u2014 the question to a committee for more study.",
+    "Town Meeting sent the question to a committee for more study.",
     "The leaf blower rules were NOT decided yet.",
-    "The Select Board, Board of Health, and the article sponsor will work together on next steps.",
+    "The Select Board, Health Board, and sponsor will plan next steps.",
 ], font_size=15)
 
 # ============================================================
@@ -269,9 +269,9 @@ add_title(slide, "Question 2: Artificial Turf")
 if os.path.exists(TURF_IMG):
     slide.shapes.add_picture(TURF_IMG, Inches(5.5), Inches(1.2), Inches(4.2), Inches(3.15))
 add_bullets(slide, 0.341, 1.1, 5.0, 3.5, [
-    "In 2025, residents asked for a three-year moratorium \u2014 a pause \u2014 on new artificial turf fields.",
-    "Artificial turf is plastic grass used on sports fields like soccer and football.",
-    "Supporters wanted time to study health and environmental risks before building more.",
+    "In 2025, residents asked for a three-year pause on new turf fields.",
+    "Artificial turf is plastic grass for sports fields like soccer.",
+    "Supporters wanted to study health and environmental risks first.",
 ])
 
 # ============================================================
@@ -307,8 +307,8 @@ add_text_box(slide, 1.5, 2.3, 7.0, 0.4,
 add_bullets(slide, 0.8, 3.0, 8.0, 2.5, [
     "Town Meeting voted YES \u2014 the three-year moratorium was adopted!",
     "No new artificial turf fields will be built in Natick for three years.",
-    "The town will use this time to study the issue and make a careful decision.",
-    "Existing turf fields (like Cole Center and Memorial Field) are not affected.",
+    "The town will study the issue and make a careful decision.",
+    "Existing fields (Cole Center, Memorial Field) are not affected.",
 ], font_size=15)
 
 # ============================================================
