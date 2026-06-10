@@ -4,6 +4,10 @@ A video production package for a 2–3 minute learning video that teaches 3rd-gr
 
 In Massachusetts, towns are run by a Select Board and either a Town Meeting or a Town Council. At Town Meeting, residents vote directly on local laws, projects, and how money is spent. The video brings this concept to life through two real debates from Natick's Fall 2024 and Fall 2025 Town Meetings, showing students how anyone can speak up, how arguments are debated fairly, and how every vote counts.
 
+## Production Approach
+
+The video features Town Moderator Jeff Alderson speaking directly to camera with a Massachusetts flag visible behind him. Slides appear on screen as visual references as he walks through each topic. The tone is natural and conversational — not a produced voiceover.
+
 ## Video Summary
 
 **Title:** *How Does Town Meeting Work? Two Big Decisions in Natick*
@@ -32,15 +36,15 @@ GitHub natively renders .mp4 files referenced in README with a video player.
 
 | File | Description |
 |------|-------------|
-| [`storyboard.md`](./storyboard.md) | 12-slide storyboard with timing, visual descriptions, audio descriptions, placeholder notes for missing source material, and a source cross-reference table |
-| [`script.md`](./script.md) | Full voiceover script with timestamps aligned to the storyboard, production notes, and a 3rd-grade reading-level check |
-| [`Town_Meeting_Video_Slides.pptx`](./Town_Meeting_Video_Slides.pptx) | 12 widescreen PowerPoint slides matching the storyboard layout, formatted with the Town Meeting Orientation template (town seal in top-right corner) |
+| [`storyboard.md`](./storyboard.md) | Storyboard describing the speaker-to-camera format, slide flow, and production setup |
+| [`script.md`](./script.md) | Conversational speaking guide with key points to cover per slide |
+| [`Town_Meeting_Video_Slides.pptx`](./Town_Meeting_Video_Slides.pptx) | 11 widescreen PowerPoint slides formatted with the Town Meeting Orientation template (town seal in top-right corner) |
 | [`references.md`](./references.md) | 13 compiled sources covering the gas leaf blower and artificial turf debates, each with key-point summaries and position labels (For / Against / Neutral) |
 | [`video_transcripts.md`](./video_transcripts.md) | Transcript analysis of 4 Telvue recordings of Fall 2025 Town Meeting sessions, including full debate quotes, arguments from all sides, and vote outcomes for Article 33 |
 | [`author.md`](./author.md) | Official bio of Town Moderator Jeff Alderson from natickma.gov, natickveterans.com, and Natick Report articles |
 | [`generate_slides.py`](./generate_slides.py) | Python script that regenerates the PowerPoint slides using python-pptx, pulling the town seal image from the orientation template |
 | [`regenerate.sh`](./regenerate.sh) | Shell script that checks source files and regenerates all build artifacts |
-| [`SKILL.md`](./SKILL.md) | Reusable skill definition documenting the full workflow for generating video production packages from source Markdown files |
+| [`SKILL.md`](./SKILL.md) | Reusable skill definition documenting the full workflow |
 
 
 ## Regeneration
