@@ -2,7 +2,7 @@
 
 A video production package for a 2–3 minute learning video that teaches 3rd-grade students how Town Meeting works in Massachusetts.
 
-In Massachusetts, towns are run by a Select Board and either a Town Meeting or a Town Council. At Town Meeting, residents vote directly on local laws, projects, and how money is spent. The video brings this concept to life through two real debates from Natick's Fall 2024 and Fall 2025 Town Meetings, showing students how anyone can speak up, how arguments are debated fairly, and how every vote counts.
+In Massachusetts, towns are run by a Select Board and either a Town Meeting or a Town Council. At Town Meeting, elected Town Meeting members vote on local laws, projects, and how money is spent — and any resident can come and speak. The video brings this concept to life through two real debates from Natick's Fall 2024 and Fall 2025 Town Meetings, showing students how anyone can speak up, how arguments are debated fairly, and how every vote counts.
 
 ## Production Approach
 
@@ -13,7 +13,7 @@ The video features Town Moderator Jeff Alderson speaking directly to camera with
 **Title:** *How Does Town Meeting Work? Two Big Decisions in Natick*
 
 The video explains:
-- What Town Meeting is and how residents vote on big decisions
+- What Town Meeting is and how elected members vote on big decisions
 - The role of the Town Moderator (Jeff Alderson) as a neutral referee
 - **Article 32 (Fall 2024):** The debate over phasing out gas-powered leaf blowers — voted 79–27–1 to refer for further study
 - **Article 33 (Fall 2025):** The debate over a three-year moratorium on artificial turf fields — voted 74–28–3 to pass

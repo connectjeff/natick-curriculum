@@ -15,7 +15,7 @@ This is a guide, not a word-for-word script. Say it in your own voice. The slide
 Introduce yourself. Say you're the Town Moderator and you're going to explain how Town Meeting works through two real examples that happened in Natick.
 
 ### Slide 2 — What Is Town Meeting?
-Explain that in Massachusetts, many towns let residents vote on big decisions directly. It's like a giant classroom vote for the whole town. Anyone can come and vote on how to spend money or what rules to make.
+Explain that in Massachusetts, many towns have Town Meeting — elected members vote on big decisions, kind of like a student council for the whole town. Any resident can come to speak their mind, but only elected Town Meeting members get to vote.
 
 ### Slide 3 — The Town Moderator
 Talk about what a Moderator does — keeps things fair, makes sure everyone gets a turn to speak, calls the vote. You can point out that that's your job. You don't take sides, you're like a referee.

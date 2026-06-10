@@ -135,8 +135,8 @@ add_text_box(slide, 0.8, 1.2, 8.4, 1.2,
 slide = new_slide(prs)
 add_title(slide, "What Is Town Meeting?")
 add_bullets(slide, 0.341, 1.1, 8.5, 2.2, [
-    "In Massachusetts, many towns let residents vote on big decisions.",
-    "Any resident can come to Town Meeting and vote \u2014 it is like a giant classroom vote for the whole town!",
+    "In Massachusetts, many towns let elected Town Meeting members vote on big decisions.",
+    "Elected Town Meeting members do the voting \u2014 but any resident can come and speak their mind.",
     "Towns vote on how to spend money, what rules to make, and important local projects.",
     "Town Meeting happens at least once a year, usually in the spring or fall.",
 ])
