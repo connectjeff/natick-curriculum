@@ -1,6 +1,6 @@
 # Video Transcripts: Gas Leaf Blowers & Artificial Turf
 
-Natick Fall 2025 Town Meeting — Telvue video analysis
+Natick Fall 2024 & Fall 2025 Town Meeting — Telvue video analysis
 
 ---
 
@@ -8,12 +8,13 @@ Natick Fall 2025 Town Meeting — Telvue video analysis
 
 | Video | Date | Link | Topics Discussed |
 |-------|------|------|------------------|
+| Fall 2024 ATM — Session 3 | Sep 19, 2024 | *(auto-generated transcript: `auto-generated-r.vtt`)* | **Article 32** — Gas Leaf Blower restriction debate and vote (referral 79-27-1) |
 | Fall 2025 FATM Primer (Articles 30-33) | Pre-recorded | [Telvue](https://natick.vod.castus.tv/vod/?media=980173) | Article 33 — Artificial Turf Moratorium (interview with Dr. Roger Luckmann) |
 | Fall ATM — Session 1 | Oct 21, 2025 | [Telvue](https://natick.vod.castus.tv/vod/?media=982513) | Article 33 postponed to Oct 23 |
 | Fall ATM — Session 2 | Oct 23, 2025 | [Telvue](https://natick.vod.castus.tv/vod/?media=983047) | Article 33 — Full debate and vote on artificial turf moratorium |
 | Fall ATM — Session 3 | Oct 28, 2025 | [Telvue](https://natick.vod.castus.tv/vod/?media=983982) | No discussion of leaf blowers or artificial turf |
 
-**Key finding:** Gas leaf blowers were **not discussed** in any of the Fall 2025 Town Meeting videos. The only topic covered across these recordings was **Article 33 — Advisory Moratorium on Artificial Turf**.
+**Key finding:** The gas leaf blower debate (Article 32) occurred at Fall 2024 Town Meeting, **not** Fall 2025. The Fall 2025 sessions covered only **Article 33 — Advisory Moratorium on Artificial Turf**.
 
 ---
 
@@ -162,8 +163,142 @@ The advisory moratorium on artificial turf was adopted by Town Meeting with a vo
 
 ## Gas Leaf Blowers — Article 32
 
-**No discussion found in any of the four Fall 2025 Town Meeting videos.**
+### Fall 2024 ATM — Session 3 (Sep 19, 2024)
 
-Article 32 in the Fall 2025 Town Meeting warrant was about "Changes in Town Meeting Time and Town Bylaws" — concerning adoption of the 4th edition of *Town Meeting Time* as the parliamentary authority — not about gas leaf blowers. (Confirmed in the Primer video, where it was discussed at length by the CBRC and the Moderator.)
+**Presiding:** Frank W. Foss (Moderator)
+**Sponsor:** Victoria Grafflin / EcoNatick (Speaker 17)
+**Finance Committee:** No recommendation (Ms. Keeney / Speaker 3)
+**Motion on floor:** Referral to Select Board, Board of Health, and sponsor (by Nancy North Graves, Precinct 6 / Speaker 13)
 
-The gas leaf blower topic is covered only in the web articles compiled in `references.md`.
+#### Moderator's Ruling on the Printed Motion
+
+The Moderator ruled the positive motion printed in the Finance Committee recommendation book out of order:
+
+> "I have ruled that motion out of order... nowhere in the text of that article does it warn you and the residents and the taxpayers and the interested parties in this town that you're gonna change a bylaw. Absent that, this motion that's printed in the book is out of scope — is beyond the scope of the article as it was presented and printed in the warrant."
+
+#### Sponsor Presents the Proposal (Victoria Grafflin / EcoNatick, Speaker 17)
+
+**Position: For (restriction/phase-out)**
+
+Grafflin described a gradual transition away from gas-powered leaf blowers:
+
+> "This is a gradual transition away from gas powered or internal combustion engine leaf blowers. What it's proposing is that starting in January, 2025, that gas powered leaf blowers only be able to be used during spring and fall cleanup periods, not during the summer for example. And that after two years in January, 2027, the use of gas powered leaf blowers would be banned with the following exemptions on properties above 1.5 acres, and during a time of emergency."
+
+On enforcement:
+
+> "The first offense would just be a written warning and then eventually after a third offense it would go up to $250 for a person, an individual, or $500 for a commercial property landscaper for example."
+
+On the health rationale:
+
+> "Air and noise pollution from gas powered lawn equipment, especially leaf blowers, creates unacceptable health risks to people, plants, and animals. The desire for hyper manicured landscapes should not outweigh the actual undocumented health risks created by the use of gas powered leaf blowers."
+
+On what has changed:
+
+> "There's a lot of new data. There was a report put out by US PIRG last year at this time that really documented just how bad and how polluting these gas powered leaf blowers are."
+
+On the pollution data:
+
+> "Most of the gas powered leaf blowers are two stroke engines, which are very inefficient. They combine the burning of gas and oil and they produce a lot of particulates. Particulates are not seen normally in cars anymore because we have things like catalytic converters."
+
+On noise:
+
+> "This is what most people think about is the noise pollution. Believe it or not, this is a hazard to your health."
+
+On Middlesex County:
+
+> "Middlesex County is actually the third most polluting county in terms of garden and lawn equipment. When you talk about particulate matter less than 2.5 microns, it's equivalent to almost 1.4 million cars."
+
+On existing electric alternatives:
+
+> "Current electric and battery powered leaf blowers are actually affordable. They really are practical. There's less maintenance required and they are significantly required and don't directly emit a plume of pollution into your neighborhood that's affecting your health."
+
+On other municipalities:
+
+> "There are at least 10 municipalities in Massachusetts who have taken some form of action on this. Some have older laws, some are brand new."
+
+#### Jeff DeLuca — Precinct 6 (Speaker 19) — Opposition
+
+**Position: Against (government overreach, fact-based concerns)**
+
+DeLuca called the approach "dictation" rather than innovation:
+
+> "If you truly want change to be a more green society within Natick, you can do it through innovation or dictation. This is dictation. That is not something that I want to be in my community. I would rather see innovation."
+
+DeLuca challenged the noise comparison between gas and electric blowers with specific model data:
+
+> "Facts are important and I wanna draw attention to a couple facts. Electric leaf blowers are not quiet. I own two of them and a gas one, I can tell you they're all loud. Battery powered EGO LB6504 blower tested at 92 decibels, while the most powerful Stihl backpack blower, a BR 800, tested at 78 decibels. So the electric or battery powered blower in this case is louder than the gas blower."
+
+On commercial impact:
+
+> "The subject matter and text of the article not only impacts Natick residents that own this current equipment, but also impacts commercial companies that service Natick residents, therefore also impacting Natick residents through increased costs or refusal of services."
+
+#### Nancy North Graves — Precinct 6 (Speaker 13) — Motion Maker
+
+**Position: For (referral / concerns about process)**
+
+> "This article was not properly vetted. So no feedback was solicited from town administration. Input was not sought from local businesses, particularly our Natick based landscaping businesses, nor the public. And the language of the article has not been reviewed by town counsel."
+
+#### Edward Devereaux — Precinct 8 — Support for the Concept
+
+**Position: For (start the process)**
+
+> "I commend the member who presented it for doing something that others have tried to do and haven't gotten it here. It belongs here."
+
+#### Russell Gates — Lighthouse Landscape (Landscaper / Speaker 16)
+
+**Position: Against (technology not ready)**
+
+Gates detailed the cost and performance gap with current battery electric equipment:
+
+> "The Stihl BGA 300 is $2,560 for the backpack, for one battery, for the charger. You want another battery? That's another $1,500 bucks."
+
+On runtime:
+
+> "Their claim to fame is that they can run 140 minutes on level one, which is a couple of leaves across your patio. Level three is gonna last a whopping 61 minutes for that one $1,500 battery. Now it's dead. So now we gotta put a generator in the nose of our trailers, which can echo off the trailer and the tailgate and now be louder than the blower we're using."
+
+On the state of battery technology for commercial use:
+
+> "These products are at least eight to 12 years away from being anything that's gonna be close to what we have."
+
+On airflow comparison:
+
+> "Our existing backpacks that we use right now... they blow 1,000 cubic feet per minute. The newest one that came out this year does 1,250 cubic feet per minute. This backpack right here [electric], 536 per minute."
+
+#### Justin Samr — Johnny Bonsai Landscaping (Speaker 24)
+
+**Position: Against (cost concerns)**
+
+> "If these things cost this much... where does it end with... if they're gonna try to stop homeowners and businesses. What about municipalities? That impacts all of us, all our taxes, everything."
+
+#### Eric Kaplan — Hemlock Drive / 40-year Landscaper (Speaker 25)
+
+**Position: Against (commercial viability)**
+
+> "Change is happening. I understand that for us as landscapers, the technology is not there. It just isn't ready yet for us to move to electric. The batteries only last an hour, an hour and a half. We can't run a business and do multiple houses in a day."
+
+On his experience in towns with restrictions:
+
+> "I work in a few other towns that have some of these bans and we can get maybe a half a day out of a battery at the most in the summertime. So technology's getting there, but it's just not there yet to be able to even in two years get to all electric."
+
+#### Additional Support for Referral
+
+**Ian alum, Precinct 9 (Speaker 21)** — Supported referral to allow proper process:
+
+> "I think that we just heard the net zero report and how we need to move away from gas powered equipment and vehicles and we need to move towards electrification. So I think referral would be the proper avenue to do that so that the sponsor could confer with the departments and with the public and develop a working path forward."
+
+**David Cressman, Precinct 10 (Speaker 16)** — Supported referral, noting innovation is happening:
+
+> "We can put our heads in the sand if we want and say, yeah, gas is the way to go... I applaud the effort to start the process and I say, let's refer this. Let's let them do the research."
+
+On his experience: he used his daughter's electric blower and found it "10 times as powerful."
+
+---
+
+### Outcome — Vote on Article 32
+
+| Motion | Yes | No | Abstain | Result |
+|--------|-----|----|---------|--------|
+| Motion to close debate | 93 | 15 | 0 | **Passed** (2/3 required) |
+| Referral to Select Board, Board of Health, and sponsor | **79** | 27 | 1 | **Passed / Referred** |
+
+The article was referred to the Select Board, Board of Health, and the sponsor (EcoNatick) for further study. The Moderator described referral as "a polite way to say no" — not ordering a report back, but asking the parties to "put your heads together and report and do something."

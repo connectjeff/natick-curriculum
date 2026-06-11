@@ -56,7 +56,7 @@ def set_bg(slide, color=LIGHT_BG):
 
 def add_title(slide, text, top=0.242):
     add_text_box(slide, 0.341, top, 8.3, 0.626, text,
-                 font_size=24, bold=True, color=TITLE_COLOR)
+                 font_size=28, bold=True, color=TITLE_COLOR)
 
 def add_text_box(slide, left, top, width, height, text, font_size=18,
                  bold=False, color=DARK, alignment=PP_ALIGN.LEFT, font_name="Calibri"):
@@ -72,7 +72,7 @@ def add_text_box(slide, left, top, width, height, text, font_size=18,
     p.alignment = alignment
     return txBox
 
-def add_bullets(slide, left, top, width, height, items, font_size=16, color=DARK, line_spacing=2.0):
+def add_bullets(slide, left, top, width, height, items, font_size=20, color=DARK, line_spacing=1.8):
     txBox = slide.shapes.add_textbox(Inches(left), Inches(top), Inches(width), Inches(height))
     tf = txBox.text_frame
     tf.word_wrap = True
@@ -91,13 +91,13 @@ def add_split(slide, left_title, left_items, right_title, right_items):
     col_w = 4.0
     col_l = 0.8
     col_r = 5.3
-    body_top = 1.1
+    body_top = 1.2
     add_text_box(slide, col_l, body_top, col_w, 0.5, left_title,
-                 font_size=20, bold=True, color=TITLE_COLOR, alignment=PP_ALIGN.CENTER)
-    add_bullets(slide, col_l, body_top + 0.55, col_w, 3.5, left_items, font_size=15)
+                 font_size=24, bold=True, color=TITLE_COLOR, alignment=PP_ALIGN.CENTER)
+    add_bullets(slide, col_l, body_top + 0.6, col_w, 3.2, left_items, font_size=20)
     add_text_box(slide, col_r, body_top, col_w, 0.5, right_title,
-                 font_size=20, bold=True, color=TITLE_COLOR, alignment=PP_ALIGN.CENTER)
-    add_bullets(slide, col_r, body_top + 0.55, col_w, 3.5, right_items, font_size=15)
+                 font_size=24, bold=True, color=TITLE_COLOR, alignment=PP_ALIGN.CENTER)
+    add_bullets(slide, col_r, body_top + 0.6, col_w, 3.2, right_items, font_size=20)
 
 def new_slide(prs):
     slide = prs.slides.add_slide(prs.slide_layouts[6])  # blank
@@ -125,9 +125,9 @@ for shape in list(slide.shapes):
 # Re-add logo
 add_logo(slide)
 set_bg(slide, WHITE)
-add_text_box(slide, 0.8, 1.2, 8.4, 1.2,
+add_text_box(slide, 0.8, 1.2, 8.4, 1.5,
              "How Does Town Meeting Work?\nTwo Big Decisions in Natick",
-             font_size=32, bold=True, color=TITLE_COLOR, alignment=PP_ALIGN.CENTER)
+             font_size=36, bold=True, color=TITLE_COLOR, alignment=PP_ALIGN.CENTER)
 
 
 # ============================================================
@@ -135,11 +135,11 @@ add_text_box(slide, 0.8, 1.2, 8.4, 1.2,
 # ============================================================
 slide = new_slide(prs)
 add_title(slide, "What Is Town Meeting?")
-add_bullets(slide, 0.341, 1.1, 8.5, 2.2, [
-    "In Mass., elected Town Meeting members vote on big decisions.",
-    "Elected members vote, but any resident can come and speak their mind.",
-    "Towns vote on spending, rules, and important local projects.",
-    "Town Meeting happens at least once a year, usually spring or fall.",
+add_bullets(slide, 0.341, 1.1, 8.5, 2.0, [
+    "Elected members vote on big decisions for the town.",
+    "Any resident can come and share their opinion.",
+    "Towns vote on money, rules, and local projects.",
+    "It\u2019s like a student council \u2014 for the whole town!",
 ])
 # Flow diagram using shapes
 from pptx.enum.shapes import MSO_SHAPE, MSO_CONNECTOR_TYPE
@@ -185,11 +185,11 @@ add_title(slide, "The Town Moderator")
 if os.path.exists(TM_IMG):
     slide.shapes.add_picture(TM_IMG, Inches(5.5), Inches(1.2), Inches(4.2), Inches(3.15))
 add_bullets(slide, 0.341, 1.1, 5.0, 3.5, [
-    "The Town Moderator keeps Town Meeting fair and organized.",
-    "In Natick, the Moderator is Jeff Alderson.",
-    "Like a referee: he keeps order and gives everyone a fair chance to speak.",
-    "The Moderator explains each question and calls the vote.",
-    "He does not take sides \u2014 he stays neutral and fair.",
+    "The Moderator keeps Town Meeting fair and organized.",
+    "In Natick, that\u2019s me \u2014 Jeff Alderson!",
+    "Like a referee: I keep order and give everyone a turn to speak.",
+    "I explain each question and call the vote.",
+    "I don\u2019t take sides \u2014 I stay neutral.",
 ])
 
 
@@ -199,17 +199,17 @@ add_bullets(slide, 0.341, 1.1, 5.0, 3.5, [
 slide = new_slide(prs)
 add_title(slide, "Two Big Questions Before Town Meeting")
 add_text_box(slide, 0.8, 1.3, 3.8, 0.5, "Gas Leaf Blowers",
-             font_size=22, bold=True, color=DARK, alignment=PP_ALIGN.CENTER)
-add_bullets(slide, 0.8, 1.9, 3.8, 2.0, [
-    "Should Natick phase out gas blowers?",
-    "Article 32 \u2014 Fall 2024",
-], font_size=15)
+             font_size=24, bold=True, color=DARK, alignment=PP_ALIGN.CENTER)
+add_bullets(slide, 0.8, 1.9, 3.8, 1.5, [
+    "Should Natick phase them out?",
+    "Debated in Fall 2024",
+], font_size=20)
 add_text_box(slide, 5.4, 1.3, 3.8, 0.5, "Artificial Turf",
-             font_size=22, bold=True, color=DARK, alignment=PP_ALIGN.CENTER)
-add_bullets(slide, 5.4, 1.9, 3.8, 2.0, [
-    "Should Natick pause new turf fields?",
-    "Article 33 \u2014 Fall 2025",
-], font_size=15)
+             font_size=24, bold=True, color=DARK, alignment=PP_ALIGN.CENTER)
+add_bullets(slide, 5.4, 1.9, 3.8, 1.5, [
+    "Should Natick pause new fields?",
+    "Debated in Fall 2025",
+], font_size=20)
 
 # ============================================================
 # SLIDE 5 — Gas Leaf Blowers
@@ -220,9 +220,9 @@ add_title(slide, "Question 1: Gas Leaf Blowers")
 if os.path.exists(LEAF_BLOWER_IMG):
     slide.shapes.add_picture(LEAF_BLOWER_IMG, Inches(5.5), Inches(1.2), Inches(4.2), Inches(3.15))
 add_bullets(slide, 0.341, 1.1, 5.0, 3.5, [
-    "In 2024, EcoNatick asked Town Meeting to phase out gas leaf blowers.",
-    "They cited noise, air pollution, and health risks like asthma.",
-    "They urged a switch to quieter electric blowers \u2014 or a rake!",
+    "EcoNatick asked Town Meeting to phase out gas leaf blowers.",
+    "They are loud and pollute the air.",
+    "They wanted people to switch to electric \u2014 or a rake!",
 ])
 
 # ============================================================
@@ -232,16 +232,14 @@ slide = new_slide(prs)
 add_title(slide, "The Debate: Leaf Blowers")
 add_split(slide,
     "FOR a Phase-Out", [
-        "Better for health \u2014 less air pollution",
+        "Better for health \u2014 less pollution",
         "Quieter neighborhoods",
-        "Better for the environment",
-        "Electric technology is improving",
+        "Electric blowers are getting better",
     ],
     "AGAINST a Phase-Out", [
-        "Battery blowers not powerful enough yet",
-        "Too expensive for small landscaping businesses",
+        "Battery blowers not strong enough yet",
+        "Too expensive for small businesses",
         "Some called it \u2018government overreach\u2019",
-        "Need more time to switch over",
     ])
 
 # ============================================================
@@ -251,15 +249,14 @@ slide = new_slide(prs)
 add_title(slide, "Outcome: Sent for Study")
 add_text_box(slide, 1.5, 1.4, 7.0, 1.0,
              "79  \u2014  27  \u2014  1",
-             font_size=48, bold=True, color=TITLE_COLOR, alignment=PP_ALIGN.CENTER)
-add_text_box(slide, 1.5, 2.3, 7.0, 0.4,
-             "Yes (refer)        No        Abstain",
-             font_size=16, color=DARK, alignment=PP_ALIGN.CENTER)
-add_bullets(slide, 0.8, 3.0, 8.0, 2.0, [
-    "Town Meeting sent the question to a committee for more study.",
-    "The leaf blower rules were NOT decided yet.",
-    "The Select Board, Health Board, and sponsor will plan next steps.",
-], font_size=15)
+             font_size=54, bold=True, color=TITLE_COLOR, alignment=PP_ALIGN.CENTER)
+add_text_box(slide, 1.5, 2.5, 7.0, 0.5,
+             "Yes        No        Abstain",
+             font_size=24, bold=True, color=DARK, alignment=PP_ALIGN.CENTER)
+add_bullets(slide, 0.8, 3.3, 8.0, 1.5, [
+    "Town Meeting sent it to a committee to study more.",
+    "No decision yet \u2014 they decided to learn more first.",
+], font_size=22)
 
 # ============================================================
 # SLIDE 8 — Artificial Turf
@@ -269,9 +266,9 @@ add_title(slide, "Question 2: Artificial Turf")
 if os.path.exists(TURF_IMG):
     slide.shapes.add_picture(TURF_IMG, Inches(5.5), Inches(1.2), Inches(4.2), Inches(3.15))
 add_bullets(slide, 0.341, 1.1, 5.0, 3.5, [
-    "In 2025, residents asked for a three-year pause on new turf fields.",
-    "Artificial turf is plastic grass for sports fields like soccer.",
-    "Supporters wanted to study health and environmental risks first.",
+    "Some residents asked for a three-year pause on new turf fields.",
+    "Artificial turf is plastic grass for sports fields.",
+    "They wanted to study health and environmental risks first.",
 ])
 
 # ============================================================
@@ -280,36 +277,32 @@ add_bullets(slide, 0.341, 1.1, 5.0, 3.5, [
 slide = new_slide(prs)
 add_title(slide, "The Debate: Artificial Turf")
 add_split(slide,
-    "FOR the Moratorium", [
-        "Microplastics may be harmful to health",
-        "PFAS \u2018forever chemicals\u2019 in turf",
-        "Fields can get very hot in summer",
-        "Artificial turf is hard to recycle or dispose of",
+    "FOR a Pause", [
+        "Microplastics may be bad for health",
+        "Turf fields get very hot in summer",
+        "Hard to recycle old turf",
     ],
-    "AGAINST the Moratorium", [
+    "AGAINST a Pause", [
         "Not enough grass fields for kids to play",
-        "Turf fields can be used more hours than grass",
-        "A 3-year delay could push back important projects",
-        "Some said health risks are not proven yet",
+        "Turf can be used more hours than grass",
+        "A delay could push back important projects",
     ])
 
 # ============================================================
 # SLIDE 10 — Artificial Turf: The Outcome
 # ============================================================
 slide = new_slide(prs)
-add_title(slide, "Outcome: Moratorium Passed!")
+add_title(slide, "Outcome: Three-Year Pause Passed!")
 add_text_box(slide, 1.5, 1.4, 7.0, 1.0,
              "74  \u2014  28  \u2014  3",
-             font_size=48, bold=True, color=TITLE_COLOR, alignment=PP_ALIGN.CENTER)
-add_text_box(slide, 1.5, 2.3, 7.0, 0.4,
-             "Yes (moratorium)        No        Abstain",
-             font_size=16, color=DARK, alignment=PP_ALIGN.CENTER)
-add_bullets(slide, 0.8, 3.0, 8.0, 2.5, [
-    "Town Meeting voted YES \u2014 the three-year moratorium was adopted!",
-    "No new artificial turf fields will be built in Natick for three years.",
-    "The town will study the issue and make a careful decision.",
-    "Existing fields (Cole Center, Memorial Field) are not affected.",
-], font_size=15)
+             font_size=54, bold=True, color=TITLE_COLOR, alignment=PP_ALIGN.CENTER)
+add_text_box(slide, 1.5, 2.5, 7.0, 0.5,
+             "Yes        No        Abstain",
+             font_size=24, bold=True, color=DARK, alignment=PP_ALIGN.CENTER)
+add_bullets(slide, 0.8, 3.3, 8.0, 1.5, [
+    "No new artificial turf fields for three years.",
+    "The town will study the issue first.",
+], font_size=22)
 
 # ============================================================
 # SLIDE 11 — What Can We Learn?
@@ -318,19 +311,19 @@ slide = new_slide(prs)
 add_title(slide, "What Can We Learn?")
 lessons = [
     ("1. Anyone can speak up",
-     "In Town Meeting, any resident can bring an idea or share their opinion."),
-    ("2. Debating helps us make better decisions",
-     "Hearing different sides of an argument helps the whole town think carefully."),
+     "Bring your ideas \u2014 even if you\u2019re not a leader."),
+    ("2. Debating helps",
+     "Hearing both sides helps us make better choices."),
     ("3. Every vote counts",
-     "Everyone\u2019s vote is equal. That\u2019s democracy in action!"),
+     "Each person gets one vote. That\u2019s democracy!"),
 ]
 y = 1.3
 for title, body in lessons:
     add_text_box(slide, 0.8, y, 7.8, 0.5, title,
-                 font_size=20, bold=True, color=ACCENT)
-    add_text_box(slide, 0.8, y + 0.5, 7.8, 0.4, body,
-                 font_size=15, color=DARK)
-    y += 1.2
+                 font_size=24, bold=True, color=ACCENT)
+    add_text_box(slide, 0.8, y + 0.55, 7.8, 0.4, body,
+                 font_size=20, color=DARK)
+    y += 1.3
 
 # Save
 prs.save(OUTPUT)

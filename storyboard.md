@@ -15,39 +15,40 @@
 ## Slide Flow
 
 ### Title Card (Slide 1)
-Jeff introduces himself and the topic. Slide shows title on screen.
+Jeff introduces himself and the topic. Slide shows title on screen — big text, clean layout.
 
 ### What Is Town Meeting? (Slide 2)
-Slide is visible as Jeff explains the concept. He can reference the diagram briefly or just speak naturally while the slide is up.
+Simple bullet list visible. Jeff explains the concept in his own words — doesn't need to read the slide.
 
 ### The Town Moderator (Slide 3)
-Photo of Spring 2026 Town Meeting in session visible as Jeff talks about the Moderator role. He can gesture to himself ("that's me!") to keep it personal.
+Photo of Spring 2026 Town Meeting in session. Jeff talks about the Moderator role — "like a referee!"
 
 ### Two Big Questions (Slide 4)
-Slide visible as Jeff transitions to the two debate topics.
+Split layout — leaf blowers on left, turf on right. Jeff transitions to the two debate topics.
 
 ### Question 1: Gas Leaf Blowers (Slide 5)
-Leaf blower photo visible as Jeff describes the EcoNatick proposal.
+Leaf blower photo on right. Simple bullets on left about the proposal.
 
 ### Leaf Blowers: The Debate (Slide 6)
-Pro/con split slide visible. Jeff can mention a few points from each side but doesn't need to read the slide.
+Pro/con split slide — short bullet lists. Jeff mentions a few points from each side.
 
 ### Leaf Blowers: The Outcome (Slide 7)
-Vote results visible. Jeff states the outcome simply.
+Big vote numbers. Simple Yes / No / Abstain labels (no parentheses). Jeff explains "abstain" verbally and what "Yes" means in context.
 
 ### Question 2: Artificial Turf (Slide 8)
-Memorial Field turf photo visible as Jeff introduces the moratorium question.
+Turf field photo on right. Simple bullets on left about the moratorium question.
 
 ### Artificial Turf: The Debate (Slide 9)
-Pro/con split slide visible. Jeff shares the key arguments in his own words.
+Pro/con split slide — short bullet lists. Jeff shares the key arguments naturally.
 
 ### Artificial Turf: The Outcome (Slide 10)
-Vote results visible. Jeff states the outcome.
+Big vote numbers. Simple Yes / No / Abstain labels (no parentheses). Jeff explains what "Yes" means — agreeing to the three-year pause.
 
 ### What Can We Learn? (Slide 11)
-Three-lesson slide visible. Jeff wraps up with a few thoughts on democracy.
+Three simple lessons on screen. Jeff wraps up with thoughts on democracy.
 
 ## Notes
-- Jeff's spoken words do not need to match the slides exactly — the slides are visual reinforcement
-- Slides should appear as Jeff transitions topics (he can click through them during recording)
+- Slides have **bigger font and less text** than usual — designed for 3rd grade reading level
+- Vote labels are kept simple: just "Yes" "No" "Abstain" — Jeff explains the meaning verbally
+- Jeff's spoken words don't need to match the slides exactly — the slides are visual reinforcement
 - Aim for 2–3 minutes total

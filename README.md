@@ -40,7 +40,8 @@ GitHub natively renders .mp4 files referenced in README with a video player.
 | [`script.md`](./script.md) | Conversational speaking guide with key points to cover per slide |
 | [`Town_Meeting_Video_Slides.pptx`](./Town_Meeting_Video_Slides.pptx) | 11 widescreen PowerPoint slides formatted with the Town Meeting Orientation template (town seal in top-right corner) |
 | [`references.md`](./references.md) | 13 compiled sources covering the gas leaf blower and artificial turf debates, each with key-point summaries and position labels (For / Against / Neutral) |
-| [`video_transcripts.md`](./video_transcripts.md) | Transcript analysis of 4 Telvue recordings of Fall 2025 Town Meeting sessions, including full debate quotes, arguments from all sides, and vote outcomes for Article 33 |
+| [`video_transcripts.md`](./video_transcripts.md) | Transcript analysis of Fall 2024 and Fall 2025 Town Meeting sessions — Article 32 gas leaf blower debate (79-27-1 referral) and Article 33 artificial turf moratorium (74-28-3 passed), with full debate quotes from all sides and vote outcomes |
+| [`auto-generated-r.vtt`](./auto-generated-r.vtt) | Raw auto-generated VTT caption file for the Fall 2024 ATM Session 3 recording, containing the full Article 32 leaf blower debate |
 | [`author.md`](./author.md) | Official bio of Town Moderator Jeff Alderson from natickma.gov, natickveterans.com, and Natick Report articles |
 | [`generate_slides.py`](./generate_slides.py) | Python script that regenerates the PowerPoint slides using python-pptx, pulling the town seal image from the orientation template |
 | [`regenerate.sh`](./regenerate.sh) | Shell script that checks source files and regenerates all build artifacts |
