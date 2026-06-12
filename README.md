@@ -19,18 +19,20 @@ The video explains:
 - **Article 33 (Fall 2025):** The debate over a three-year moratorium on artificial turf fields — voted 74–28–3 to pass
 - What students can learn about democracy: anyone can speak up, debate leads to better decisions, and every vote counts
 
-## Video File
+## Video Recording
 
-<!--
-When the final MP4 is added to this repository, replace the placeholder below.
-GitHub natively renders .mp4 files referenced in README with a video player.
--->
+**Final video with slides:** [`Town Meeting Recording with Slides.mp4`](./Town%20Meeting%20Recording%20with%20Slides.mp4)
 
-**Final video:** `Town_Meeting_Video.mp4` *(not yet recorded — add the MP4 file to this directory and update the link below)*
-
-<video src="./Town_Meeting_Video.mp4" controls width="720" poster="">
-  Your browser does not support the video tag. Download the file from <a href="./Town_Meeting_Video.mp4">./Town_Meeting_Video.mp4</a>.
+<video src="./Town%20Meeting%20Recording%20with%20Slides.mp4" controls width="720">
+  <track src="./video_transcript.vtt" kind="captions" srclang="en" label="English">
+  Your browser does not support the video tag. Download the file from <a href="./Town%20Meeting%20Recording%20with%20Slides.mp4">Town Meeting Recording with Slides.mp4</a>.
 </video>
+
+**Transcript:** [`Readable transcript`](./video_transcript.md) | [`VTT captions`](./video_transcript.vtt)
+
+Additional recording exports:
+- [`Town Meeting Recording only Video.mp4`](./Town%20Meeting%20Recording%20only%20Video.mp4)
+- [`Town Meeting Recording only Slides.mp4`](./Town%20Meeting%20Recording%20only%20Slides.mp4)
 
 ## Artifacts
 
@@ -39,6 +41,12 @@ GitHub natively renders .mp4 files referenced in README with a video player.
 | [`storyboard.md`](./storyboard.md) | Storyboard describing the speaker-to-camera format, slide flow, and production setup |
 | [`script.md`](./script.md) | Conversational speaking guide with key points to cover per slide |
 | [`Town_Meeting_Video_Slides.pptx`](./Town_Meeting_Video_Slides.pptx) | 11 widescreen PowerPoint slides formatted with the Town Meeting Orientation template (town seal in top-right corner) |
+| [`Town Meeting Recording with Slides.mp4`](./Town%20Meeting%20Recording%20with%20Slides.mp4) | Final recorded video with speaker video and slides composited together |
+| [`Town Meeting Recording only Video.mp4`](./Town%20Meeting%20Recording%20only%20Video.mp4) | Speaker-only video export |
+| [`Town Meeting Recording only Slides.mp4`](./Town%20Meeting%20Recording%20only%20Slides.mp4) | Slides-only video export |
+| [`video_transcript.md`](./video_transcript.md) | Readable transcript for the final recorded video |
+| [`video_transcript.vtt`](./video_transcript.vtt) | WebVTT caption file extracted from the final recorded video |
+| [`Camtasia Project from 12JUN2026.zip`](./Camtasia%20Project%20from%2012JUN2026.zip) | Camtasia project archive used to produce the final recording exports |
 | [`references.md`](./references.md) | 13 compiled sources covering the gas leaf blower and artificial turf debates, each with key-point summaries and position labels (For / Against / Neutral) |
 | [`video_transcripts.md`](./video_transcripts.md) | Transcript analysis of Fall 2024 and Fall 2025 Town Meeting sessions — Article 32 gas leaf blower debate (79-27-1 referral) and Article 33 artificial turf moratorium (74-28-3 passed), with full debate quotes from all sides and vote outcomes |
 | [`auto-generated-r.vtt`](./auto-generated-r.vtt) | Raw auto-generated VTT caption file for the Fall 2024 ATM Session 3 recording, containing the full Article 32 leaf blower debate |
