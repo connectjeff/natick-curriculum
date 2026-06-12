@@ -23,10 +23,9 @@ The video explains:
 
 **Final video with slides:** [`Town Meeting Recording with Slides.mp4`](./Town%20Meeting%20Recording%20with%20Slides.mp4)
 
-<video src="./Town%20Meeting%20Recording%20with%20Slides.mp4" controls width="720">
-  <track src="./video_transcript.vtt" kind="captions" srclang="en" label="English">
-  Your browser does not support the video tag. Download the file from <a href="./Town%20Meeting%20Recording%20with%20Slides.mp4">Town Meeting Recording with Slides.mp4</a>.
-</video>
+[![Watch the final video with slides](./video_thumbnail.jpg)](./Town%20Meeting%20Recording%20with%20Slides.mp4)
+
+**Watch:** [`Open the video`](./Town%20Meeting%20Recording%20with%20Slides.mp4)
 
 **Transcript:** [`Readable transcript`](./video_transcript.md) | [`VTT captions`](./video_transcript.vtt)
 
@@ -42,6 +41,7 @@ Additional recording exports:
 | [`script.md`](./script.md) | Conversational speaking guide with key points to cover per slide |
 | [`Town_Meeting_Video_Slides.pptx`](./Town_Meeting_Video_Slides.pptx) | 11 widescreen PowerPoint slides formatted with the Town Meeting Orientation template (town seal in top-right corner) |
 | [`Town Meeting Recording with Slides.mp4`](./Town%20Meeting%20Recording%20with%20Slides.mp4) | Final recorded video with speaker video and slides composited together |
+| [`video_thumbnail.jpg`](./video_thumbnail.jpg) | README preview image linked to the final recorded video |
 | [`Town Meeting Recording only Video.mp4`](./Town%20Meeting%20Recording%20only%20Video.mp4) | Speaker-only video export |
 | [`Town Meeting Recording only Slides.mp4`](./Town%20Meeting%20Recording%20only%20Slides.mp4) | Slides-only video export |
 | [`video_transcript.md`](./video_transcript.md) | Readable transcript for the final recorded video |
