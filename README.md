@@ -66,3 +66,7 @@ pip3 install python-pptx
 ```
 
 To update the content, edit the source Markdown files (`references.md`, `video_transcripts.md`) and then regenerate the slides.
+
+## License
+
+This work is licensed under the [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/). See [`LICENSE`](./LICENSE) for the full terms.
